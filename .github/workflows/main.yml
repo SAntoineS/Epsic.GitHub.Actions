@@ -22,10 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Runs a single command using the runners shell
-      - name: Move to test directory
-        run: cd tests
-        
          # Runs a single command using the runners shell
       - name: Run tests
         run: dotnet test
